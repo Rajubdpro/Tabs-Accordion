@@ -1,0 +1,24 @@
+.tabconent {
+    display: none;
+    animation: bbb 1s;
+  }
+  @keyframes bbb {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .item-details {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+  }
+  .item-details.active {
+    overflow: hidden;
+  }
+  button.active_item {
+    color: #fff;
+    background-color: #c00 !important;
+  }
